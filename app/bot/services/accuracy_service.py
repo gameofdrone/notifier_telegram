@@ -23,7 +23,7 @@ def get_best_accuracy():
     # TODO: release function that return best accuracy
     pass
 
-def save_changes(data):
+def save_changes(data: Accuracy):
     db.session.add(data)
     db.session.commit()
 
